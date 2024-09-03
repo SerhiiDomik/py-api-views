@@ -34,12 +34,12 @@ urlpatterns = [
     path("actors/", ActorList.as_view(), name="actor_list"),
     path("actors/<int:pk>/", ActorDetail.as_view(), name="actor_detail"),
     path(
-        "cinemahalls/",
+        "cinema_halls/",
         cinema_hall_list,
         name="cinema_hall_list"
     ),
     path(
-        "cinemahalls/<int:pk>/",
+        "cinema_halls/<int:pk>/",
         cinema_hall_detail,
         name="cinema_hall_detail"
     ),
